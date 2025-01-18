@@ -13,4 +13,4 @@
     command : sudo systemctl start docker
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 9090:8090 sajith751/fiananceme-sajith:latest
+    command: docker run -itd -p 9090:8090 sajith751/fiananceme-sajith:${TAG_NAME}
